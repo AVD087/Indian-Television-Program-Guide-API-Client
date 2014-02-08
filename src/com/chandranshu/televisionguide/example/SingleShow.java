@@ -8,10 +8,11 @@ public class SingleShow {
 
 	private String showTitle;
 	private String showTime;
+	private String showThumb;
 
 	private LinkedHashMap<String,String> showDetails;
 
-	public SingleShow(String title, String time) {
+	public SingleShow(String title, String time, String thumb) {
 
 	}
 
@@ -37,5 +38,13 @@ public class SingleShow {
 
 	public void setShowDetails(LinkedHashMap<String, String> showDetails) {
 		this.showDetails = showDetails;
+	}
+
+	public String getShowThumb() {
+		return showThumb;
+	}
+
+	public void setShowThumb(String showThumb) {
+		this.showThumb = showThumb;
 	}
 }
